@@ -1,0 +1,8 @@
+node {
+    stage('Git'){
+      git 'https://github.com/javahometech/myweb'         
+    }
+    stage('Maven Build'){
+      sh 'mvn clean package'   
+    }
+}
