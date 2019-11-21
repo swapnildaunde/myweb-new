@@ -1,6 +1,6 @@
 node {
     stage('Git'){
-      git 'https://github.com/javahometech/myweb'         
+      git 'https://github.com/swapnildaunde/myweb-new'         
     }
     stage('Maven Build'){
       sh 'mvn clean package'   
